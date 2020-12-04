@@ -31,3 +31,9 @@ elPassword2.addEventListener("blur",function(){
     let a = document.getElementById("kataLaluan2");
     checkPasswordLength2(a.value);
 });
+
+let yahooLink = document.getElementById("yahooLink")
+yahooLink.addEventListener("click",function(){
+    event.preventDefault();
+    alert(yahooLink.href);
+});
