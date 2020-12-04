@@ -32,7 +32,7 @@ elPassword2.addEventListener("blur",function(){
     checkPasswordLength2(a.value);
 });
 
-let yahooLink = document.getElementById("yahooLink")
+let yahooLink = document.getElementById("yahooLink");
 yahooLink.addEventListener("click",function(){
     event.preventDefault();
     alert(yahooLink.href);
