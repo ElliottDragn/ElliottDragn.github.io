@@ -38,7 +38,7 @@ elLocate.addEventListener("click",function(){
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position){
             let elLat = document.getElementById("lat");
-            let elLong = document.getElementById("lon");
+            let elLong = document.getElementById("long");
             let elDepulze = document.getElementById("depulze");
             let elSunway = document.getElementById("sunway");
             let elKlcc = document.getElementById("klcc");
@@ -52,7 +52,7 @@ elLocate.addEventListener("click",function(){
             elLong.innerHTML = "Your longitude: " + userLong;
             elDepulze.innerHTML = "Distance to De Pulze, CJ is " + distances[0];
             elSunway.innerHTML = "Distance to Sunway Pyamid is " + distances[1];
-            elKlcc.innerHTML = "Distance to KLCC is " + distances[3];
+            elKlcc.innerHTML = "Distance to KLCC is " + distances[2];
 
         })
     } else {
