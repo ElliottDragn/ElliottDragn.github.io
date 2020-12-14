@@ -37,3 +37,15 @@ let app4 = new Vue({
         ]
     }
 }); //there is one array inside []; the thing inside curly bracket is an element inside an array. 
+
+let app5 = new Vue({
+    el: "#app5",
+    data: {
+        message: "Hakim Ariff"
+    },
+    methods: {
+        reverseMessage: function () {
+            this.message = this.messsage.split("").reverse().join("")
+        }
+    }
+});
