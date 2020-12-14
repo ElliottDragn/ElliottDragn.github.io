@@ -26,14 +26,14 @@ let app4 = new Vue({
     data: {
         todos: [
             {
-                text="Learn Javascript",
+                text="Learn Javascript"
             },
             {
-                text="Learn Vue",
+                text="Learn Vue"
             },
             {
-                text="Build something awesome!",
+                text="Build something awesome!"
             }
         ]
     }
-});
+}); //there is one array inside []; the thing inside curly bracket is an element inside an array. 
