@@ -26,13 +26,13 @@ let app4 = new Vue({
     data: {
         todos: [
             {
-                text="Learn Javascript"
+                text: "Learn Javascript"
             },
             {
-                text="Learn Vue"
+                text: "Learn Vue"
             },
             {
-                text="Build something awesome!"
+                text: "Build something awesome!"
             }
         ]
     }
