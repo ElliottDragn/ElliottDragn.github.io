@@ -53,14 +53,15 @@ function BookNow(guestName, guestEmail, guestPax) {
             let bookMsg = document.getElementById("bookMsg");
             bookMsg.innerHTML = json.booking.name + " added!"
             GetBookings();
-        }
+        });
+}
 
 
 let bookNow = document.getElementById("bookNow");
-    bookNow.addEventListener("click", function () {
-        let gName = document.getElementById("guestName").value;
-        let gEmail = document.getElementById("guestEmail").value;
-        let gPax = document.getElementById("guestPax").value;
+bookNow.addEventListener("click", function () {
+    let gName = document.getElementById("guestName").value;
+    let gEmail = document.getElementById("guestEmail").value;
+    let gPax = document.getElementById("guestPax").value;
 
-        BookNow(gName, gEmail, gPax);
-    });
+    BookNow(gName, gEmail, gPax);
+});
