@@ -36,14 +36,8 @@
             text-align: center;
         }
 
-        .menu1 {
-            width: 80%;
-            height: 60%;
-            padding: 1%;
-            background: #566573;
-            overflow-y: scroll;
-            overflow-x: scroll;
-            white-space: nowrap;
+        .menu {
+            float: left;
         }
     </style>
 
@@ -101,66 +95,49 @@
                     <header class="nav-fluid">
                         <h2>Menu</h2>
                     </header>
-                    <div class="menu1">
-                        <article class="">
-                            <a href="https://cdn.pixabay.com/photo/2019/06/18/18/01/bruschetta-4282898_1280.jpg"
-                                target="_blank">
-                                <img height="60%" width="60%" alt="bruschetta"
-                                    src="https://cdn.pixabay.com/photo/2019/06/18/18/01/bruschetta-4282898_1280.jpg" />
-                            </a>
-                            <figcaption class="content-fluid">Bruschetta</figcaption>
-                        </article>
-                        <article class="">
-                            <a href="https://cdn.pixabay.com/photo/2015/09/27/16/50/spaghetti-960978_1280.jpg"
-                                target="_blank">
-                                <img height="60%" width="60%" alt="pasta"
-                                    src="https://cdn.pixabay.com/photo/2015/09/27/16/50/spaghetti-960978_1280.jpg" />
-                            </a>
-                            <figcaption>Pasta</figcaption>
-                        </article>
-                        <article class="">
-                            <a href="https://cdn.pixabay.com/photo/2019/08/06/15/31/panna-cotta-4388588_1280.jpg"
-                                target="_blank">
-                                <img height="60%" width="60%" alt="panna cotta"
-                                    src="https://cdn.pixabay.com/photo/2019/08/06/15/31/panna-cotta-4388588_1280.jpg" />
-                            </a>
-                            <figcaption>Panna Cotta</figcaption>
-                        </article>
-                        <article class="">
-                            <a href="https://cdn.pixabay.com/photo/2016/11/06/23/29/tomatoes-1804452_1280.jpg"
-                                target="_blank">
-                                <img height="60%" width="60%" alt="salad"
-                                    src="https://cdn.pixabay.com/photo/2016/11/06/23/29/tomatoes-1804452_1280.jpg" />
-                            </a>
-                            <figcaption>Salad</figcaption>
-                        </article>
-                        <article class="">
-                            <a href="https://cdn.pixabay.com/photo/2017/11/23/16/57/pizza-2973200_1280.jpg"
-                                target="_blank">
-                                <img height="60%" width="60%" alt="pizza"
-                                    src="https://cdn.pixabay.com/photo/2017/11/23/16/57/pizza-2973200_1280.jpg" />
-                            </a>
-                            <figcaption>Pizza</figcaption>
-                        </article>
-                        <article class="">
-                            <a href="https://cdn.pixabay.com/photo/2018/04/18/17/22/dessert-3331009_1280.jpg"
-                                target="_blank">
-                                <img height="60%" width="60%" alt="tiramisu"
-                                    src="https://cdn.pixabay.com/photo/2018/04/18/17/22/dessert-3331009_1280.jpg" />
-                            </a>
-                            <figcaption>Tiramisu</figcaption>
-                        </article>
-                    </div>
+                    <a href="https://cdn.pixabay.com/photo/2019/06/18/18/01/bruschetta-4282898_1280.jpg"
+                        target="_blank">
+                        <img height="60%" width="60%" alt="bruschetta"
+                            src="https://cdn.pixabay.com/photo/2019/06/18/18/01/bruschetta-4282898_1280.jpg" />
+                    </a>
+                    <figcaption class="content-fluid">Bruschetta</figcaption>
+                    <a href="https://cdn.pixabay.com/photo/2015/09/27/16/50/spaghetti-960978_1280.jpg" target="_blank">
+                        <img height="60%" width="60%" alt="pasta"
+                            src="https://cdn.pixabay.com/photo/2015/09/27/16/50/spaghetti-960978_1280.jpg" />
+                    </a>
+                    <figcaption>Pasta</figcaption>
+                    <a href="https://cdn.pixabay.com/photo/2019/08/06/15/31/panna-cotta-4388588_1280.jpg"
+                        target="_blank">
+                        <img height="60%" width="60%" alt="panna cotta"
+                            src="https://cdn.pixabay.com/photo/2019/08/06/15/31/panna-cotta-4388588_1280.jpg" />
+                    </a>
+                    <figcaption>Panna Cotta</figcaption>
+                    <a href="https://cdn.pixabay.com/photo/2016/11/06/23/29/tomatoes-1804452_1280.jpg" target="_blank">
+                        <img height="60%" width="60%" alt="salad"
+                            src="https://cdn.pixabay.com/photo/2016/11/06/23/29/tomatoes-1804452_1280.jpg" />
+                    </a>
+                    <figcaption>Salad</figcaption>
+                    <a href="https://cdn.pixabay.com/photo/2017/11/23/16/57/pizza-2973200_1280.jpg" target="_blank">
+                        <img height="60%" width="60%" alt="pizza"
+                            src="https://cdn.pixabay.com/photo/2017/11/23/16/57/pizza-2973200_1280.jpg" />
+                    </a>
+                    <figcaption>Pizza</figcaption>
+                    <a href="https://cdn.pixabay.com/photo/2018/04/18/17/22/dessert-3331009_1280.jpg" target="_blank">
+                        <img height="60%" width="60%" alt="tiramisu"
+                            src="https://cdn.pixabay.com/photo/2018/04/18/17/22/dessert-3331009_1280.jpg" />
+                    </a>
+                    <figcaption>Tiramisu</figcaption>
                 </div>
-
             </div>
 
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-                crossorigin="anonymous"></script>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
