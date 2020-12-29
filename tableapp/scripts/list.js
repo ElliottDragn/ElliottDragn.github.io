@@ -18,6 +18,7 @@ function GetBookings() {
                 let gName = json.bookings[i].name;
                 let gTel = json.bookings[i].tel;
                 let gDate = json.bookings[i].date;
+                let gTime = json.bookings[i].time;
                 let gPax = json.bookings[i].pax;
                 let gId = json.bookings[i].id;
                 let gRemarks = json.bookings[i].remarks;
@@ -28,9 +29,10 @@ function GetBookings() {
                 row.insertCell(1).innerHTML = gName;
                 row.insertCell(2).innerHTML = gTel;
                 row.insertCell(3).innerHTML = gDate;
-                row.insertCell(4).innerHTML = gPax;
-                row.insertCell(5).innerHTML = gRemarks;
-                row.insertCell(6).innerHTML = "<button id='" +
+                row.insertCell(4).innerHTML = gTime;
+                row.insertCell(5).innerHTML = gPax;
+                row.insertCell(6).innerHTML = gRemarks;
+                row.insertCell(7).innerHTML = "<button id='" +
                     buttonId + "' class='btn btn-danger'>Delete</button>";
 
                 bookingIds.push(buttonId);
