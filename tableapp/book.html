@@ -130,94 +130,99 @@
         </div>
 
         <!--Booking Form-->
-        <article class="content-fluid">
-            <div class="form-group">
-                <header>
-                    <h3>Booking Form</h3>
+        <div class="row">
+            <div class="col">
+                <article class="content-fluid">
+                    <div class="form-group">
+                        <header>
+                            <h3>Booking Form</h3>
+                        </header>
+                        <br>
+                        <label for="userName">
+                            <h5>Name</h5>
+                        </label>
+                        <input type="text" class="form-control" id="userName">
+                    </div>
+                    <div class="form-group">
+                        <label for="userTel">
+                            <h5>Contact Number</h5>
+                        </label>
+                        <input type="tel" class="form-control" id="userTel" placeholder="012-345-6789"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                    <div class="form-group">
+                        <label for="userDate">
+                            <h5>Booking Date</h5>
+                        </label>
+                        <input type="date" class="form-control" id="userDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="userTime">
+                            <h5>Booking Time</h5>
+                        </label>
+                        <br>
+                        <input type="time" id="userTime">
+                    </div>
+                    <div class="form-group">
+                        <label for="userPax">
+                            <h5>Pax</h5>
+                        </label>
+                        <select class="form-control" id="userPax">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="userRemarks">
+                            <h5>Remarks</h5>
+                        </label>
+                        <textarea class="form-control" id="userRemarks" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="bookNow">Submit</button>
+                </article>
+            </div>
+        </div>
+        <!--Contact Us-->
+        <div class="col">
+            <article class="content-fluid2">
+                <header class="nav-fluid">
+                    <h3>Contact Us</h3>
                 </header>
                 <br>
-                <label for="userName">
-                    <h5>Name</h5>
-                </label>
-                <input type="text" class="form-control" id="userName">
-            </div>
-            <div class="form-group">
-                <label for="userTel">
-                    <h5>Contact Number</h5>
-                </label>
-                <input type="tel" class="form-control" id="userTel" placeholder="012-345-6789"
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-            </div>
-            <div class="form-group">
-                <label for="userDate">
-                    <h5>Booking Date</h5>
-                </label>
-                <input type="date" class="form-control" id="userDate">
-            </div>
-            <div class="form-group">
-                <label for="userTime">
-                    <h5>Booking Time</h5>
-                </label>
+                <h5>Telephone no.</h5>
+                <p>+03 123456789</p>
+                <h5>Address</h5>
+                <p> 88, Bangunan Bangun Awal,<br>
+                    Jalan Itali, <br>
+                    48200 Selangor.</p>
+                <h5>Location</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.050589604243!2d101.55908514756358!3d3.337674758598343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc428f963eae8b%3A0xe09359a316fd9c35!2s48200%20Selangor!5e0!3m2!1sen!2smy!4v1609154988703!5m2!1sen!2smy"
+                    width="60%" height="45%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                <br><br><br><br>
+                <h5>Social Media</h5>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img height="10%" width="10%" alt="fb icon" class="icon"
+                        src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" />
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img height="10%" width="10%" alt="ig icon" class="icon"
+                        src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_3-instagram-512.png" />
+                </a>
                 <br>
-                <input type="time" id="userTime">
-            </div>
-            <div class="form-group">
-                <label for="userPax">
-                    <h5>Pax</h5>
-                </label>
-                <select class="form-control" id="userPax">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="userRemarks">
-                    <h5>Remarks</h5>
-                </label>
-                <textarea class="form-control" id="userRemarks" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" id="bookNow">Submit</button>
-        </article>
+                <p>Follow our page to keep updated!</p>
 
-        <!--Contact Us-->
-        <article class="content-fluid2">
-            <header class="nav-fluid">
-                <h3>Contact Us</h3>
-            </header>
-            <br>
-            <h5>Telephone no.</h5>
-            <p>+03 123456789</p>
-            <h5>Address</h5>
-            <p> 88, Bangunan Bangun Awal,<br>
-                Jalan Itali, <br>
-                48200 Selangor.</p>
-            <h5>Location</h5>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.050589604243!2d101.55908514756358!3d3.337674758598343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc428f963eae8b%3A0xe09359a316fd9c35!2s48200%20Selangor!5e0!3m2!1sen!2smy!4v1609154988703!5m2!1sen!2smy"
-                width="60%" height="45%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-            <br><br><br><br>
-            <h5>Social Media</h5>
-            <a href="https://www.facebook.com/" target="_blank">
-                <img height="10%" width="10%" alt="fb icon" class="icon"
-                    src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" />
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img height="10%" width="10%" alt="ig icon" class="icon"
-                    src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_3-instagram-512.png" />
-            </a>
-            <br>
-            <p>Follow our page to keep updated!</p>
-
-        </article>
+            </article>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
