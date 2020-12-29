@@ -63,3 +63,7 @@ function DeleteBooking(id) {
             GetBookings();
         });
 }
+
+if (typeof comment === 'undefined') {
+    alert('Variable "comment" is undefined.');
+}
